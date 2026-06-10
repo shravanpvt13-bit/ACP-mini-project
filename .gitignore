@@ -1,0 +1,14 @@
+# Compiled binaries
+*.exe
+editor
+
+# Object files
+*.o
+
+# VS Code directory (optional, but usually ignored or kept depending on preference. 
+# We will keep .vscode since it contains user's specific tasks/launch files for MSYS2, 
+# but ignore personal workspace settings)
+.vscode/ipch/
+.vscode/Browse.VC.db
+.vscode/config.json
+.vscode/*.log

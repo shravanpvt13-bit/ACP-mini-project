@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build Graphics Editor",
+            "command": "C:/msys64/ucrt64/bin/gcc.exe",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-std=c11",
+                "-O2",
+                "${workspaceFolder}/main.c",
+                "${workspaceFolder}/shapes.c",
+                "-o",
+                "${workspaceFolder}/editor.exe",
+                "-lncursesw",
+                "-lm"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compiler: C:/msys64/ucrt64/bin/gcc.exe"
+        }
+    ]
+}
